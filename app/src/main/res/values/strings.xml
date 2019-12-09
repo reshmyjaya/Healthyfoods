@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Healthyfoods</string>
+    <string name="activitylogin_label_Mobile_number">Mobile No</string>
+    <string name="activitylogin_label_password">Password</string>
+    <string name="activitylogin_label_btnname">Signin</string>
+    <string name="activitylogin_label_msgname">Not yet Registered?</string>
+    <string name="activitylogin_label_newmsgname">Signup</string>
+    <string name="activityregistration_label_btnname">Save</string>
+    <string name="activityverify_label_txt">We have send you a verification code
+        on your registered mobile number</string>
+    <string name="activityverify_label_vfcode">VerificationCode</string>
+</resources>
