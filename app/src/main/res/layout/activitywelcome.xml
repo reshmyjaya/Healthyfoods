@@ -17,14 +17,16 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:text="Dieting Reason"
-            android:padding="7dp"/>
+            android:padding="7dp"
+            android:onClick="DietReasonLinkClick"/>
 
         <Button
             android:id="@+id/button2"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:text="Food Select"
-            android:padding="7dp"/>
+            android:padding="7dp"
+            android:onClick="FoodSelectLinkClick"/>
     </TableRow>
 
     <TableRow
@@ -37,14 +39,16 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:text="Selection"
-            android:paddingBottom="10dp"/>
+            android:paddingBottom="10dp"
+            android:onClick="SelectionLinkClick"/>
 
         <Button
             android:id="@+id/button4"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:text="Complaints and Queries"
-            android:paddingBottom="10dp"/>
+            android:paddingBottom="10dp"
+            android:onClick="QueryLinkClick"/>
     </TableRow>
     <TableRow
         android:id="@+id/tableRow3"

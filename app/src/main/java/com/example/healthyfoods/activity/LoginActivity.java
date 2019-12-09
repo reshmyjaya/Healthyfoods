@@ -4,6 +4,7 @@ package com.example.healthyfoods.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.telecom.Call;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -30,7 +31,7 @@ public class LoginActivity extends AppCompatActivity {
 
 
                 if (username.equals("9846076712") && password.equals("3344")) {
-                    Intent intent = new Intent(getApplicationContext(), DetailsActivity.class);
+                    Intent intent = new Intent(getApplicationContext(), WelcomeActivity.class);
                     startActivity(intent);
                 } else {
                     Toast.makeText(getApplicationContext(), "Invalid Credentials", Toast.LENGTH_SHORT).show();

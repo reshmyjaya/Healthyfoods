@@ -16,5 +16,20 @@ public class WelcomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activitywelcome);
     }
-
+public void DietReasonLinkClick(View view){
+        Intent intent = new Intent(this, DetailsActivity.class);
+        startActivity(intent);
+}
+public void FoodSelectLinkClick(View view){
+        Intent intent = new Intent(this,SelectActivity.class);
+        startActivity(intent);
+}
+public void SelectionLinkClick(View view){
+        Intent intent = new Intent(this, VerifyActivity.class);
+        startActivity(intent);
+}
+public void QueryLinkClick(View view){
+        Intent intent = new Intent(this, ComplaintAvtivity.class);
+        startActivity(intent);
+}
 }

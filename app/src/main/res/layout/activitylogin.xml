@@ -24,7 +24,7 @@
         android:id="@+id/Signin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/activitylogin_label_btnname" />
+        android:text="Signin" />
 
 
 
